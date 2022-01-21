@@ -1,2 +1,26 @@
 Curso de introduccion a la terminal y linea de comandos de Platzi
 
+Aparte del curso 
+    Para instalar un .deb  
+sudo dpkg -i package_file.deb
+    Para desinstalar un archivo .deb
+sudo apt-get remove nombre_del_paquete
+
+Atajos de teclado 
+
+CTRL-C      Termina el proceso de un comando en la terminal
+CTRL-D      Termina el input de un comando
+CTRL-A      Avanza al inicio de línea
+CTRL-E      Avanza al final de línea
+CTRL-L      Limpia la pantalla de la terminal
+
+Operaciones con directorios:
+
+pwd         Imprime el directorio actual
+mkdir       dir1 Crea el directorio con nombre dir1
+cd dir1     Cambia al directorio con nombre dir1
+cd ../..    Cambia dos directorios anteriores del actual
+cd          Cambia al directorio home del usuario
+ls          Muestra archivos y directorios
+tree /ruta  Muestra todos los archivos y directorios anidados dentro de la ruta a cualquier nivel de profundidad
+tree -L 2 . Muestra todos los archivos y directorios anidados dentro de la ruta actual a dos niveles de profundidad
